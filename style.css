@@ -1,0 +1,162 @@
+@font-face {
+    font-family: quicksand_book;
+    src: url(Quicksand_Book.otf);
+    font-size: normal;
+}
+
+@font-face {
+    font-family: quicksand_bold;
+    src: url(Quicksand_Bold.otf);
+    font-size: normal;
+}
+
+@font-face {
+    font-family: quicksand_book_oblique;
+    src: url(Quicksand_Book_Oblique.otf);
+    font-size: normal;
+}
+
+@font-face {
+    font-family: quicksand_light_oblique;
+    src: url(Quicksand_Light_Oblique.otf);
+    font-size: normal;
+}
+
+body {
+    background-color: #303030;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 15px;
+    
+}
+
+
+#nav_titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    margin-left: 213px;
+    color: white;
+    line-height: 60px;
+    
+
+}
+
+#nav_elements {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    color: white;
+    font-size: 35px;
+    align-self: center;
+    margin-right: 210px;
+    cursor: pointer;
+}
+
+#nav_element4 {
+    border: 5px solid #9b06ce;
+    border-radius: 50px;
+    padding: 5px 25px 5px 25px;
+    margin-top: 24px;
+}
+
+#nav_element1:hover {
+    color: #9b06ce;
+    transition: 0.2s;
+}
+
+#nav_element2:hover {
+    color: #9b06ce;
+    transition: 0.2s;
+}
+
+#nav_element3:hover {
+    color: #9b06ce;
+    transition: 0.2s;
+}
+
+#nav_element4:hover {
+    color: white;
+    background-color: #9b06ce;
+    border: 5px solid #9b06ce;
+    transition: 0.2s;
+}
+
+
+
+#section_meio {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    gap: 50px;   
+}
+
+
+#div_titulo {
+    line-height: 15px;
+}
+
+#texto_meio {
+    color: #9b06ce;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#sub_texto {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90px;
+}
+
+#p_meio {
+    color: white;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#div_buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+#nome_button {
+    height: 100px;
+    width: 610px;
+    border: 1px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+    padding-right: 445px;
+    font-size: 35px;
+}
+
+
+#email_button {
+    height: 100px;
+    width: 610px;
+    border: 1px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+    padding-right: 445px;
+    font-size: 35px;
+}
+
+
+#enviar_button {
+    height: 80px;
+    width: 250px;
+    border: 0.1px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 35px;
+    background-color: #9b06ce;
+    color: white;
+}
+
+
+
